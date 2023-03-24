@@ -1,0 +1,56 @@
+.head{
+text-align: center;
+font-size: 25px;
+font-family:Georgia, 'Times New Roman', Times, serif, bold;
+color: crimson;
+transition: transform.4s;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    justify-content: end;
+    gap: 4rem;
+
+}
+.flexbox-item-1{
+    margin: 1px;
+    gap: 2px;
+    display:flex;
+    justify-content: center;
+    align-content: flex-end;
+    transition: transform.4s;
+    
+}
+.flexbox-item-1:hover{
+    transform: scale(1.4);
+
+}
+
+.flexbox-item-2{
+    display:flex;
+    justify-content: center;
+    transition: transform.4s;
+    
+}
+.flexbox-item-2:hover{
+    transform: scale(1.4);
+}
+.head:hover{
+    transform: scale(1.4);
+}
+
+#footer {
+    position: fixed;
+    align-items: center;
+    bottom: 100px;
+    width: 100%;
+    
+    height: 30px;
+}
+#in{
+    position: fixed;
+    align-items:center;
+    top:200px;
+    right:650px;
+
+}
